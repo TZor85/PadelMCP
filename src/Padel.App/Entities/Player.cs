@@ -6,7 +6,6 @@ public class Player
 {
     public Guid Id { get; set; }
     public required string Name { get; set; }
-    public string? Apellidos { get; set; }
 
     [JsonIgnore]
     public bool Deleted { get; set; }
